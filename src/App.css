@@ -1,28 +1,22 @@
-.box {
-  text-align: center;
-  margin-top: 50px;
-  padding: 30px;
-  background-color: #f5d0ff;
+.fruit-container {
+  background: rgb(111, 169, 223);
+  padding: 20px;
+  width: 300px;
   border-radius: 12px;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
-  background-color: rgb(57, 12, 163);
-  color: rgb(252, 244, 248);
-  padding: 12px 18px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+.fruit-title {
+  color: #121b29;
+  text-align: center;
+  margin-bottom: 10px;
+  font-style: initial;
+
+}
+
+.fruit-list li {
+  color: #010d13;
   font-size: 18px;
+  margin: 5px 0;
+  font-style: italic;
 }
-
-.btn:hover {
-  background-color: #6a0080;
-}
-.colored-text {
-  color: teal;
-}
-

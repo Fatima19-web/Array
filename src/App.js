@@ -1,23 +1,24 @@
 
 import React from "react";
+import "./App.css";
 
-function Intro() {
+function FruitsList() {
+  const fruits = ["Mango", "Banana", "Apple", "Orange", "Grapes"];
+
   return (
-    <div> 
-      <h1><b>Introduction</b></h1>
-      <p>My name is Fatima.</p>
-      <p>I am in class 10.</p>
-      <p>
-        I love sketching, writing, and travelling. I enjoy exploring new ideas,
-        learning creative skills, and expressing myself through art. React is
-        new for me, but I’m excited to learn and build more projects!
-      </p>
+    <div className="fruit-container">
+      <h2 className="fruit-title">Fruit List</h2>
+
+      <ul className="fruit-list">
+        {fruits.map((fruit, index) => (
+          <li key={index}>{fruit}</li>
+        ))}
+      </ul>
     </div>
   );
 }
 
-export default Intro;
-
+export default FruitsList;
 
 
 
