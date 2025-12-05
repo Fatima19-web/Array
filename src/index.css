@@ -8,54 +8,29 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.app-wrapper {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f3f4f6;
-  padding: 20px;
+ul {
+  list-style-type: square;  /* Changes bullet style */
+  padding: 0;
+  width: 200px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
-.card {
-  width: 560px;
-  background: rgb(160, 156, 180);
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+li {
+  padding: 10px;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none; /* Remove border for last item */
+}
+
+h2 {
   text-align: center;
-}
-
-
-
-.name {
-  font-size: 40px;
-  font-weight: 600;
-  margin-top: 10px;
-}
-
-.desc {
-  font-size: 14px;
-  color: rgb(223, 80, 80);
-  margin: 10px 0;
-}
-
-.follow-btn {
-  background: #2563eb;
-  color: rgb(27, 3, 3);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-}
-
-.follow-btn:hover {
-  background: #1e4fc9;
-}
-.profile-pic {
-  width:200px;
-  height:200px;
-  object-fit:cover;
-  display:block;
-  border-radius:8px;
+  font-family: Arial, sans-serif;
+  color: #444;
 }
